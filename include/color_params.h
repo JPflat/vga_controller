@@ -1,0 +1,82 @@
+// P_VGA_COLOR_<CHARA_COLOR>_<BACK_COLOR>
+// [7]: character red
+// [6]: character green
+// [5]: character blue
+// [4]: D.C.
+// [3]: back ground red
+// [2]: back ground green
+// [1]: back ground blue
+// [0]: D.C.
+
+// back ground black
+  localparam P_VGA_COLOR_RD_BK = 8'b1000_0000;
+  localparam P_VGA_COLOR_GR_BK = 8'b0100_0000;
+  localparam P_VGA_COLOR_BL_BK = 8'b0010_0000;
+  localparam P_VGA_COLOR_MG_BK = 8'b1010_0000;
+  localparam P_VGA_COLOR_YL_BK = 8'b1100_0000;
+  localparam P_VGA_COLOR_CY_BK = 8'b0110_0000;
+  localparam P_VGA_COLOR_WH_BK = 8'b1110_0000;
+  localparam P_VGA_COLOR_BK_BK = 8'b0000_0000;
+// back ground red
+  localparam P_VGA_COLOR_RD_RD = 8'b1000_1000;
+  localparam P_VGA_COLOR_GR_RD = 8'b0100_1000;
+  localparam P_VGA_COLOR_BL_RD = 8'b0010_1000;
+  localparam P_VGA_COLOR_MG_RD = 8'b1010_1000;
+  localparam P_VGA_COLOR_YL_RD = 8'b1100_1000;
+  localparam P_VGA_COLOR_CY_RD = 8'b0110_1000;
+  localparam P_VGA_COLOR_WH_RD = 8'b1110_1000;
+  localparam P_VGA_COLOR_BK_RD = 8'b0000_1000;
+// back ground green
+  localparam P_VGA_COLOR_RD_GR = 8'b1000_0100;
+  localparam P_VGA_COLOR_GR_GR = 8'b0100_0100;
+  localparam P_VGA_COLOR_BL_GR = 8'b0010_0100;
+  localparam P_VGA_COLOR_MG_GR = 8'b1010_0100;
+  localparam P_VGA_COLOR_YL_GR = 8'b1100_0100;
+  localparam P_VGA_COLOR_CY_GR = 8'b0110_0100;
+  localparam P_VGA_COLOR_WH_GR = 8'b1110_0100;
+  localparam P_VGA_COLOR_BK_GR = 8'b0000_0100;
+// back ground blue
+  localparam P_VGA_COLOR_RD_BL = 8'b1000_0010;
+  localparam P_VGA_COLOR_GR_BL = 8'b0100_0010;
+  localparam P_VGA_COLOR_BL_BL = 8'b0010_0010;
+  localparam P_VGA_COLOR_MG_BL = 8'b1010_0010;
+  localparam P_VGA_COLOR_YL_BL = 8'b1100_0010;
+  localparam P_VGA_COLOR_CY_BL = 8'b0110_0010;
+  localparam P_VGA_COLOR_WH_BL = 8'b1110_0010;
+  localparam P_VGA_COLOR_BK_BL = 8'b0000_0010;
+// back ground magenta
+  localparam P_VGA_COLOR_RD_MG = 8'b1000_1010;
+  localparam P_VGA_COLOR_GR_MG = 8'b0100_1010;
+  localparam P_VGA_COLOR_BL_MG = 8'b0010_1010;
+  localparam P_VGA_COLOR_MG_MG = 8'b1010_1010;
+  localparam P_VGA_COLOR_YL_MG = 8'b1100_1010;
+  localparam P_VGA_COLOR_CY_MG = 8'b0110_1010;
+  localparam P_VGA_COLOR_WH_MG = 8'b1110_1010;
+  localparam P_VGA_COLOR_BK_MG = 8'b0000_1010;
+// back ground yellow
+  localparam P_VGA_COLOR_RD_YL = 8'b1000_1100;
+  localparam P_VGA_COLOR_GR_YL = 8'b0100_1100;
+  localparam P_VGA_COLOR_BL_YL = 8'b0010_1100;
+  localparam P_VGA_COLOR_MG_YL = 8'b1010_1100;
+  localparam P_VGA_COLOR_YL_YL = 8'b1100_1100;
+  localparam P_VGA_COLOR_CY_YL = 8'b0110_1100;
+  localparam P_VGA_COLOR_WH_YL = 8'b1110_1100;
+  localparam P_VGA_COLOR_BK_YL = 8'b0000_1100;
+// back ground cyan
+  localparam P_VGA_COLOR_RD_CY = 8'b1000_0110;
+  localparam P_VGA_COLOR_GR_CY = 8'b0100_0110;
+  localparam P_VGA_COLOR_BL_CY = 8'b0010_0110;
+  localparam P_VGA_COLOR_MG_CY = 8'b1010_0110;
+  localparam P_VGA_COLOR_YL_CY = 8'b1100_0110;
+  localparam P_VGA_COLOR_CY_CY = 8'b0110_0110;
+  localparam P_VGA_COLOR_WH_CY = 8'b1110_0110;
+  localparam P_VGA_COLOR_BK_CY = 8'b0000_0110;
+// back ground white
+  localparam P_VGA_COLOR_RD_WH = 8'b1000_1110;
+  localparam P_VGA_COLOR_GR_WH = 8'b0100_1110;
+  localparam P_VGA_COLOR_BL_WH = 8'b0010_1110;
+  localparam P_VGA_COLOR_MG_WH = 8'b1010_1110;
+  localparam P_VGA_COLOR_YL_WH = 8'b1100_1110;
+  localparam P_VGA_COLOR_CY_WH = 8'b0110_1110;
+  localparam P_VGA_COLOR_WH_WH = 8'b1110_1110;
+  localparam P_VGA_COLOR_BK_WH = 8'b0000_1110;

@@ -1,0 +1,3 @@
+//`define DBG
+//`define VGA_FORMAT_640X480_60HZ
+`define VGA_FORMAT_640X350_70HZ
